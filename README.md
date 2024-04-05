@@ -12,7 +12,7 @@
    - hobbiesAtom (array of strings)
 
 6. Create a component called `Users.tsx`
-7. Import and display the four atoms in your component. You can output them in separate span or div tags
+7. Import and display the four atoms in your component. You can output them in separate span or div tags. Use `.map` for the hobbies since it's an array
 8. Create a form with a two input fields (one for firstname and one for lastname) and a submit button
 9. Clicking on the submit button will update the *firstname* atom and *lastname* atom
 10. When you are done, push your changes to `dev` branch, create a PR from `dev` to `master` and merge
