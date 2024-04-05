@@ -6,10 +6,10 @@
 4. Create one atom store called `atom-users.tsx`
 5. In your atom store, create four atoms:
   
-   - firstNameAtom (string)
-   - lastnameAtom (string)
-   - ageAtom (number)
-   - hobbiesAtom (array of strings)
+   - firstNameAtom (string): Your first name
+   - lastnameAtom (string): Your last name
+   - ageAtom (number): Your age
+   - hobbiesAtom (array of strings): Your hobbies
 
 6. Create a component called `Users.tsx`
 7. Import and display the four atoms in your component. You can output them in separate span or div tags. Use `.map` for the hobbies since it's an array
